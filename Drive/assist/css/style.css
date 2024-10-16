@@ -1,0 +1,66 @@
+/* card img */
+.card {
+    background-image: url(../img/man-driving-a-car-in-countryside-picjumbo-com.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* container for navbar */
+.navjoha {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* hover 1 */
+.hov:hover {
+    text-decoration: underline;
+}
+/* hover carusel */
+.hover1:hover {
+    background-color: #233785;
+    border: none !important;
+}
+.hover {
+    opacity: -1;
+    transition: all 0.5s;
+
+}
+.carusel-hover:hover .hover {
+    opacity: 1;
+}
+/* opa */
+.block-1 {
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.jahon {
+    background-color: rgba(35, 55, 133, 0.896);
+}
+/* anim */
+.anim {
+    position: relative;
+    overflow: hidden;
+    top: -3.9rem;
+    transition: all 0.5s;
+}
+.block-1:hover .anim {
+    top: -19.5rem;
+    overflow: hidden;
+    position: relative;
+}
+/* bgcl */ 
+.topj {
+    margin-top: -53px;
+}
+/* bg-img */
+.bg-img {
+    background-image: url(../img/testimonial-bg-01.jpg);
+    background-attachment: fixed;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    /* height: 60vh; */
+     
+}
